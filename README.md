@@ -93,11 +93,11 @@ You will need to ideally:
 
 ## Screens
 
-![av](/screens/name.png)
+![av](/screens/atom-10605-AppVeyor.png)
 
-![av](/screens/name.png)
+![av](/screens/atom-AppVeyor.png)
 
-![av](/screens/name.png)
+![av](/screens/atom-10607-AppVeyor.png)
 
 :asterisk: More screenshots available in [screens directory](/screens) for your perusal.
 
