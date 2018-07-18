@@ -26,14 +26,14 @@ its not bug free, there possible are elements that were likely missed.
 
 #### Using a browser extension:
 
-* Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
-* FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
+* Stylus - install the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+
 #### Then install this style using:  
 <!--
 :arrow_right: [userstyles.org](https://userstyles.org/styles/160316)  
 -->
 :arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://github.com/style-it-themes/appveyor-ci-inspired-dark/raw/master/appveyor-ci-inspired-dark.user.css)** to install directly from this repository.  
-  >This is only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+  >This is only available using Stylus (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
 
 :arrow_right: [Manually](https://raw.githubusercontent.com/style-it-themes/appveyor-ci-inspired-dark/master/appveyor-ci-inspired-dark.css) into the editor.  
   >Please refer to the [installation documentation](https://github.com/style-it-themes/appveyor-ci-inspired-dark/wiki/Install) for more details.
