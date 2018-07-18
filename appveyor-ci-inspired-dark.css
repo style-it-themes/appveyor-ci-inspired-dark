@@ -1,6 +1,6 @@
 @-moz-document domain("appveyor.com") {
 	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 0.9.8 beta */
+	/*! Version : 0.9.9 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/appveyor-ci-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
@@ -1278,8 +1278,8 @@
 
 	.toast-close-button {
 		color: #fff !important;
-		-webkit-text-shadow: 0 1px 0 #fff !important;
-		text-shadow: 0 1px 0 #fff !important;
+		-webkit-text-shadow: none !important;
+		text-shadow: none !important;
 		background: transparent !important;
 	}
 
@@ -1287,6 +1287,11 @@
 		color: #000 !important;
 		background: transparent !important;
 		opacity: .4;
+	}
+
+	button.toast-close-button {
+		border: 0 !important;
+		-webkit-appearance: none !important;
 	}
 
 	#toast-container {
@@ -1754,6 +1759,11 @@
 
 	.job-console.ubuntu .ansi-106 {
 		background: #8cd2ff !important;
+	}
+
+	.err {
+		color: #a61717;
+		background-color: transparent !important;
 	}
 
 	.console-log-truncated {
