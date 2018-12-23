@@ -1,6 +1,6 @@
 @-moz-document domain("appveyor.com") {
 	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 0.9.9 beta */
+	/*! Version : 1.0.0 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/appveyor-ci-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
@@ -419,7 +419,6 @@
 	.panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
 		color: #333
 	}
-
 
 	.panel.callout a {
 		color: #2ba6cb !important;
@@ -866,8 +865,8 @@
 	}
 
 	.label {
-		background-color: #2ba6cb;
-		color: #fff !important;
+		background-color: transparent !important;
+		color: #ddd !important;
 	}
 
 	.label.alert {
@@ -2046,20 +2045,25 @@
 		color: #ddd !important;
 	}
 
-	.vertical-tabs li a {
+	.vertical-tabs li a:not(button):not(.button):not(.ng-binding):not(a) {
 		color: #ccc !important;
 		border-left: solid 5px transparent !important;
 	}
 
-	.vertical-tabs li a:hover {
+	.vertical-tabs li a:hover:not(button):not(.button) {
 		background-color: #333 !important;
 		border-color: #00c7f4 !important;
 	}
 
-	.vertical-tabs li.active a {
+	.vertical-tabs li.active a:not(button):not(.button) {
 		background-color: #333 !important;
 		border-color: #00c7f4 !important;
 		color: #ddd !important;
+	}
+
+	.vertical-tabs-container h2 {
+		color: #bbb !important;
+		border-bottom: solid 1px #555 !important;
 	}
 
 	ul.pagination li.current a {
@@ -2290,7 +2294,8 @@
 	}
 
 	.responsive-table .row.header .columns {
-		color: #aaa6a2 !important;
+		color: #888 !important;
+		border-top: 1px solid #555 !important;
 		border-bottom: 1px solid #555 !important;
 	}
 
