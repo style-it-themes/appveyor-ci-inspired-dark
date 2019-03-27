@@ -2,7 +2,7 @@
 @name         Appveyor CI Inspired Dark
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/appveyor-ci-inspired-dark
-@version      1.0.1
+@version      1.0.2
 @updateURL    https://raw.githubusercontent.com/style-it-themes/appveyor-ci-inspired-dark/master/appveyor-ci-inspired-dark.user.css
 @description  The AppVeyor CI Inspired Dark theme is an AppVeyor CI extended dark style,
 that covers various associated domains and refines styling to all elements and areas.
@@ -11,7 +11,7 @@ that covers various associated domains and refines styling to all elements and a
 ==/UserStyle== */
 @-moz-document domain("appveyor.com") {
 	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 1.0.1 beta */
+	/*! Version : 1.0.2 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/appveyor-ci-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
