@@ -2,7 +2,7 @@
 @name         Appveyor CI Inspired Dark
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/appveyor-ci-inspired-dark
-@version      1.0.0
+@version      1.0.1
 @updateURL    https://raw.githubusercontent.com/style-it-themes/appveyor-ci-inspired-dark/master/appveyor-ci-inspired-dark.user.css
 @description  The AppVeyor CI Inspired Dark theme is an AppVeyor CI extended dark style,
 that covers various associated domains and refines styling to all elements and areas.
@@ -11,7 +11,7 @@ that covers various associated domains and refines styling to all elements and a
 ==/UserStyle== */
 @-moz-document domain("appveyor.com") {
 	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 1.0.0 beta */
+	/*! Version : 1.0.1 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/appveyor-ci-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
@@ -28,6 +28,9 @@ that covers various associated domains and refines styling to all elements and a
 		background-size: auto !important;
 		background-position: left top !important;
 		*/
+	}
+	.artifact-type:focus {
+		outline: none !important;
 	}
 
 	hr {
@@ -254,6 +257,11 @@ that covers various associated domains and refines styling to all elements and a
 		background-color: #e9e9e9 !important;
 		border-color: #dcdcdc !important;
 		color: #505050 !important;
+	}
+
+	.in-page-warning, .trial-warning {
+		border-color: #2795b6 !important;
+		color: #aaa !important;
 	}
 
 	.alert-box.warning {
@@ -1851,7 +1859,7 @@ that covers various associated domains and refines styling to all elements and a
 	}
 
 	.top-bar-section .dropdown li label {
-		color: #5f5555 !important;
+		color: #aaa !important;
 	}
 
 	.top-bar-section .dropdown li a, .top-bar-section ul li > a {
@@ -2054,6 +2062,10 @@ that covers various associated domains and refines styling to all elements and a
 
 	.horiz-tabs li a span {
 		color: #ddd !important;
+	}
+
+	.vertical-tabs > li > a {
+		color: #aaa !important;
 	}
 
 	.vertical-tabs li a:not(button):not(.button):not(.ng-binding):not(a) {
@@ -2421,18 +2433,13 @@ that covers various associated domains and refines styling to all elements and a
 		color: #00c7f4 !important;
 	}
 
-	h1 {
+	h1, h3 {
 		color: #ddd !important;
 	}
 
 	h2 {
 		color: #ccc !important;
 	}
-
-	h3 {
-		color: #ddd !important;
-	}
-
 
 	code {
 		color: #eb2b5c !important;
