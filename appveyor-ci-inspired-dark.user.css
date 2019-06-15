@@ -10,11 +10,6 @@ that covers various associated domains and refines styling to all elements and a
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
 @-moz-document domain("appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Version : 1.0.2 beta */
-	/*! Author  : Style-it Themes by: the-j0k3r */
-	/*! Repo    : https://github.com/style-it-themes/appveyor-ci-inspired-dark */
-	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
 	/*! Type    : Main CI Builder */
 	body, .customers-container, .footer-container {
 		color: #c0c0c0 !important;
@@ -240,19 +235,19 @@ that covers various associated domains and refines styling to all elements and a
 	.button.success, button.success {
 		background-color: #5da423;
 		border-color: #518f1f;
-		color: #fff
+		color: #fff;
 	}
 	.button.success:focus, .button.success:hover,
 	button.success:focus, button.success:hover {
 		background-color: #518f1f;
-		color: #fff
+		color: #fff;
 	}
 	.button.alert, button.alert {
-		color: #fff
+		color: #fff;
 	}
 	.button.alert:focus, .button.alert:hover,
 	button.alert:focus, button.alert:hover {
-		color: #fff
+		color: #fff;
 	}
 	.button.disabled, .button[disabled], button.disabled, button[disabled] {
 		background-color: #2ba6cb !important;
@@ -811,9 +806,6 @@ that covers various associated domains and refines styling to all elements and a
 	}
 }
 @-moz-document domain("appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Author  : Style-it Themes by: the-j0k3r */
-	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
 	/*! Type    : Docs/Pricing/Appveyor.com landing page */
 	select {
 		background: #111 !important;
@@ -947,9 +939,6 @@ that covers various associated domains and refines styling to all elements and a
 	}
 }
 @-moz-document domain("appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Author  : Style-it Themes by: the-j0k3r */
-	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
 	/*! Type    : tbd pages */
 	label.prefix, span.prefix {
 		background: #f2f2f2 !important;
@@ -1440,9 +1429,6 @@ that covers various associated domains and refines styling to all elements and a
 	}
 }
 @-moz-document domain("appveyor.com") {
-	/*! Name    : Appveyor CI Inspired Dark */
-	/*! Author  : Style-it Themes by: the-j0k3r */
-	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/appveyor-ci-inspired-dark/LICENSE */
 	/*! Type    : tbd pages */
 	.field-value .error {
 		color: #f00 !important;
