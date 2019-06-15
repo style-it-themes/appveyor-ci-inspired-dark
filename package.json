@@ -1,0 +1,19 @@
+{
+  "name": "appveyor-ci-inspired-dark",
+  "title": "AppVeyor CI Inspired Dark",
+  "description": "An Inspired dark theme for AppVeyor CI and related websites.",
+  "version": "1.0.2",
+  "repository": "style-it-themes/appveyor-ci-inspired-dark",
+  "homepage": "https://github.com/style-it-themes/appveyor-ci-inspired-dark",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "updates": "^8.1.0",
+    "ver": "^5.0.1"
+  },
+  "scripts": {
+    "patch": "npx ver -p patch *.user.css",
+    "minor": "npx ver -p minor *.user.css",
+    "major": "npx ver -p major *.user.css",
+    "update": "npx updates -cu && npm install"
+  }
+}
