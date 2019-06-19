@@ -57,42 +57,42 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/appveyor-ci-inspired-dark/fork) the project.
 
-* Limit to the [K&R Style](http://en.wikipedia.org/wiki/1_true_brace_style#K.26R_style), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
+* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
 
   * K&R - KNF Variation Example:
-	```css
-	element[attr='value'] {
-	-property: value;
-	}
-	```
+  ```css
+  element[attr='value'] {
+  -property: value;
+  }
+  ```
 
   * **Not Allman**
-	```css
-	element[property='value']
-	{
-	-property: value;
-	}
-	```
+  ```css
+  element[property='value']
+  {
+  -property: value;
+  }
+  ```
 
   * Strict space between the `selector` and the `{`:
-	```css
-	/* good */
-	element[attr='value'] { }
+  ```css
+  /* good */
+  element[attr='value'] { }
 
-	/* bad */
-	element[attr='value']{ }
-	```
+  /* bad */
+  element[attr='value']{ }
+  ```
 
   * 1 tab indentation
-	```css
-	/* good */
-	-property: value;
+  ```css
+  /* good */
+  -property: value;
 
-	/* bad */
-	····property: value;
-	----property: value;
-	·property: value;
-	```
+  /* bad */
+  ····property: value;
+  ----property: value;
+  ·property: value;
+  ```
 
 :asterisk: Try to wrap lines at around 80 characters.
 
