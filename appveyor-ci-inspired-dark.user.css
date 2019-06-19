@@ -24,6 +24,14 @@ that covers various associated domains and refines styling to all elements and a
 		background-position: left top !important;
 		*/
 	}
+	@media only screen and (min-width:40.063em) {
+		html:not(#Z) a.selected-account {
+			background-image: url(https://ci.appveyor.com/assets/images/logo-no-text-2x.png) !important;
+			background-repeat: no-repeat!important;
+			background-position: 13px 50%!important;
+			background-size: 22px 22px!important
+		}
+	}
 	.artifact-type:focus {
 		outline: none !important;
 	}
@@ -219,7 +227,8 @@ that covers various associated domains and refines styling to all elements and a
 	.button, button {
 		color: #fff !important;
 	}
-	.button:focus, .button:hover, button:focus, button:hover {
+	.button:not(.border-color):focus, .button:not(.border-color):hover,
+	button:not(.border-color):focus, button:not(.border-color):hover {
 		background-color: #2795b6 !important;
 		color: #fff !important;
 	}
@@ -1061,7 +1070,7 @@ that covers various associated domains and refines styling to all elements and a
 		color: #ccc!important;
 		border: solid 2px #008cba !important;
 	}
-	.button, button {
+	.button:not(.border-color), button:not(.border-color) {
 		background-color: #00b3e0 !important;
 		border: 1px dotted #00b3e0 !important;
 	}
