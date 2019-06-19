@@ -6,14 +6,28 @@
   "repository": "style-it-themes/appveyor-ci-inspired-dark",
   "homepage": "https://github.com/style-it-themes/appveyor-ci-inspired-dark",
   "license": "CC-BY-SA-4.0",
+  "engines": {
+    "node": ">=10"
+  },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-silverwind": "^3.0.3",
+    "perfectionist": "^2.4.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
     "updates": "^8.1.0",
     "ver": "^5.0.1"
   },
   "scripts": {
+    "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
+    "eslint": "eslint --quiet --color tools/*.js",
+    "lint": "npm run eslint && npm run stylelint",
     "patch": "npx ver -p patch *.user.css",
     "minor": "npx ver -p minor *.user.css",
     "major": "npx ver -p major *.user.css",
+    "perfectionist": "npx perfectionist appveyor-ci-inspired-dark.user.css appveyor-ci-inspired-dark.user.css --indentSize 2 indentChar \t --maxAtRuleLength 250",
+    "stylelint": "npx stylelint --quiet --color --fix -- appveyor-ci-inspired-dark.user.css",
+    "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"
   }
 }
