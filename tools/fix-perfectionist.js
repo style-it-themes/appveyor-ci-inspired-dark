@@ -12,9 +12,13 @@ function cleanup(css) {
     // Perfectionist adds comments to the end of the previous line...
     // }/* comment */ => }\n\n  /* comment */
     .replace(/}\/\*(([\s\S])+?)\*\/\s*/g, "}\n\n  /*$1*/\n  ")
+    .replace(/,\s\/\*/g, ",\n  /*")
+    // Remove leading whitespace from @-moz-document entries
+    .replace(/\n\s{15}/g, "\n")
     // Remove extra carriage returns between definitions
-    .replace(/\n+/g, "\n");
+    .replace(/\n+/g, "\n")
     // Meta: Fix perfectionist alignment stuff
+    .replace(/,\u0020{2,}/g, ", ");
 }
 
 async function postPerfectionist() {

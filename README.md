@@ -57,7 +57,7 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/appveyor-ci-inspired-dark/fork) the project.
 
-* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
+* Limit to the [K&R Style](http://en.wikipedia.org/wiki/1_true_brace_style#K.26R_style), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
 
   * K&R - KNF Variation Example:
 	```css
