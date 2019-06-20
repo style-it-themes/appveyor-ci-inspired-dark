@@ -59,22 +59,22 @@ You will need to ideally:
 
 * Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
 
-  * K&R - KNF Variation Example:
+* K&R - KNF Variation Example:
   ```css
   element[attr='value'] {
-  -property: value;
+  ··property: value;
   }
   ```
 
-  * **Not Allman**
+* **Not Allman**
   ```css
   element[property='value']
   {
-  -property: value;
+  ··property: value;
   }
   ```
 
-  * Strict space between the `selector` and the `{`:
+* Strict space between the `selector` and the `{`:
   ```css
   /* good */
   element[attr='value'] { }
@@ -83,10 +83,10 @@ You will need to ideally:
   element[attr='value']{ }
   ```
 
-  * 1 tab indentation
+* 2 Space indentation
   ```css
   /* good */
-  -property: value;
+  ··property: value;
 
   /* bad */
   ····property: value;
