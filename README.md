@@ -27,6 +27,10 @@ that covers various associated domains and refines styling to all elements and a
 :asterisk: Full coverage entails styled while using a free open source account,
 its not bug free, there possible are elements that were likely missed.
 
+## Related Styles
+
+Would you like more coverage? Visit [*AppVeyor Forums Inspired Dark*](https://github.com/style-it-themes/appveyor-forums-inspired-dark) for Forums and Status coverage style.
+
 ## Installing
 
 #### Using a browser extension:
