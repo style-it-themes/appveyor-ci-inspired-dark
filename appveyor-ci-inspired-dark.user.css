@@ -32,6 +32,11 @@ that covers various associated domains and refines styling to all elements and a
       background-size: 22px 22px !important;
     }
   }
+  /* needs to be here else loading some pages displays huge logo for ~500msec */
+  .top-bar .name a svg {
+    width: 126px;
+    height: 23px;
+  }
   .artifact-type:focus {
     outline: none !important;
   }
@@ -684,8 +689,8 @@ that covers various associated domains and refines styling to all elements and a
   }
   .joyride-expose-wrapper {
     background-color: #fff;
+       -moz-box-shadow: 0 0 30px #fff;
     -webkit-box-shadow: 0 0 15px #fff;
-       -moz-box-shadow: 0 0 15px #fff;
             box-shadow: 0 0 15px #fff;
   }
   @media only screen and (min-width: 40.063em) {
@@ -890,6 +895,10 @@ that covers various associated domains and refines styling to all elements and a
   .nt {
     color: #0064ff;
   }
+  img {
+    filter: invert(1) hue-rotate(180deg) contrast(100%) brightness(140%);
+    mix-blend-mode: exclusion;
+  }
   /* Pricing page */
   .pricing-banner {
     background-color: #444 !important;
@@ -1023,10 +1032,10 @@ that covers various associated domains and refines styling to all elements and a
     color: #ccc !important;
   }
   .toast-close-button {
+    color: #fff !important;
     -webkit-text-shadow: none !important;
             text-shadow: none !important;
     background: transparent !important;
-    color: #fff !important;
   }
   .toast-close-button:focus, .toast-close-button:hover {
     color: #000 !important;
@@ -1067,8 +1076,8 @@ that covers various associated domains and refines styling to all elements and a
     border: solid 2px #008cba !important;
   }
   .button:not(.border-color), button:not(.border-color) {
-    background-color: #00b3e0 !important;
-    border: 1px dotted #00b3e0 !important;
+    background-color: #00b3e0;
+    border: 1px dotted #00b3e0;
   }
   .button.secondary, button.secondary {
     border-color: #555 !important;
@@ -1093,8 +1102,9 @@ that covers various associated domains and refines styling to all elements and a
   .button[disabled], .button[disabled]:focus, .button[disabled]:hover,
   button.disabled, button.disabled:focus, button.disabled:hover,
   button[disabled], button[disabled]:focus, button[disabled]:hover {
-    background-color: #89dff5 !important;
-    border-color: #89dff5 !important;
+    background-color: #00b3e0 !important;
+    border-color: #00b3e0 !important;
+    filter: brightness(70%) !important;
   }
   .toolbar-button {
     color: #00b3e0 !important;
