@@ -407,6 +407,9 @@ that covers various associated domains and refines styling to all elements and a
   .preloader {
     border-color: #555 #fff;
   }
+  .downloads .platform.mac {
+    filter: brightness(150%);
+  }
   .orbit-container .orbit-slides-container > * .orbit-caption {
     background-color: rgba(51, 51, 51, .8);
     color: #fff;
