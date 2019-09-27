@@ -120,7 +120,7 @@ that covers various associated domains and refines styling to all elements and a
   .top-bar-section ul li.active > a:hover {
     background: #2795b6 !important;
   }
-  .top-bar-section .has-dropdown > a:after {
+  .top-bar-section .has-dropdown > a::after {
     border-color: transparent transparent transparent rgba(255, 255, 255, .4) !important;
   }
   .top-bar-section .dropdown li.title h5 a {
@@ -143,7 +143,7 @@ that covers various associated domains and refines styling to all elements and a
     .top-bar-section li a:not(.button):hover {
       background: #272727 !important;
     }
-    .top-bar-section .has-dropdown > a:after {
+    .top-bar-section .has-dropdown > a::after {
       border-color: rgba(255, 255, 255, .4) transparent transparent !important;
     }
     .top-bar-section .dropdown li a {
@@ -184,7 +184,7 @@ that covers various associated domains and refines styling to all elements and a
   .breadcrumbs > .unavailable:hover, .breadcrumbs > .unavailable:hover a {
     color: #999 !important;
   }
-  .breadcrumbs > :before {
+  .breadcrumbs > ::before {
     color: #aaa !important;
   }
   .alert-box {
@@ -366,13 +366,13 @@ that covers various associated domains and refines styling to all elements and a
   .panel.callout a {
     color: #2ba6cb !important;
   }
-  .dropdown.button.tiny:before, .dropdown.button:before {
+  .dropdown.button.tiny::before, .dropdown.button::before {
     border-color: #fff transparent transparent !important;
   }
-  .dropdown.button.large:before, .dropdown.button.small:before {
+  .dropdown.button.large::before, .dropdown.button.small::before {
     border-color: #fff transparent transparent !important;
   }
-  .dropdown.button.secondary:before {
+  .dropdown.button.secondary::before {
     border-color: #333 transparent transparent;
   }
   .th {
@@ -523,7 +523,7 @@ that covers various associated domains and refines styling to all elements and a
       border: 1px solid #999 !important;
     }
   }
-  .split.button span:before {
+  .split.button span::before {
     border-color: #fff transparent transparent;
   }
   .split.button span:active {
@@ -533,7 +533,7 @@ that covers various associated domains and refines styling to all elements and a
   .split.button.success span {
     border-left-color: rgba(255, 255, 255, .5);
   }
-  .split.button.secondary span:before {
+  .split.button.secondary span::before {
     border-color: #333 transparent transparent;
   }
   .reveal-modal-bg {
@@ -792,11 +792,11 @@ that covers various associated domains and refines styling to all elements and a
   .f-dropdown.content > :last-child, .f-dropdown > :last-child {
     margin-bottom: 0;
   }
-  .f-dropdown:after, .f-dropdown:before {
+  .f-dropdown::after, .f-dropdown::before {
     border: inset 6px;
     border-color: transparent transparent #fff;
   }
-  .f-dropdown:after {
+  .f-dropdown::after {
     border: inset 7px;
     border-color: transparent transparent #ccc;
   }
@@ -1129,25 +1129,25 @@ that covers various associated domains and refines styling to all elements and a
     color: #0064ff !important;
   }
   .job-console .fg-2 {
-    color: green !important;
+    color: #008000 !important;
   }
   .job-console .fg-3 {
-    color: teal !important;
+    color: #008080 !important;
   }
   .job-console .fg-4 {
-    color: maroon !important;
+    color: #800000 !important;
   }
   .job-console .fg-5 {
-    color: purple !important;
+    color: #a000a0 !important;
   }
   .job-console .fg-6 {
-    color: olive !important;
+    color: #990 !important;
   }
   .job-console .ansi-90, .job-console .fg-7 {
-    color: silver !important;
+    color: #bbb !important;
   }
   .job-console .fg-8 {
-    color: gray !important;
+    color: #7e7d7d !important;
   }
   .job-console .ansi-34, .job-console .fg-9 {
     color: #16f !important;
@@ -1159,7 +1159,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #0ff !important;
   }
   .job-console .ansi-31, .job-console .fg-12 {
-    color: red !important;
+    color: #f00 !important;
   }
   .job-console .ansi-35, .job-console .fg-13 {
     color: #f0f !important;
@@ -1179,25 +1179,25 @@ that covers various associated domains and refines styling to all elements and a
     background: #0d3163 !important;
   }
   .job-console .bg-2 {
-    background: green !important;
+    background: #008200 !important;
   }
   .job-console .bg-3 {
-    background: teal !important;
+    background: #008080 !important;
   }
   .job-console .bg-4 {
-    background: maroon !important;
+    background: #820000 !important;
   }
   .job-console .bg-5 {
-    background: purple !important;
+    background: #7c007c !important;
   }
   .job-console .bg-6 {
-    background: olive !important;
+    background: #8b8b00 !important;
   }
   .job-console .ansi-100, .job-console .bg-7 {
-    background: silver !important;
+    background: #bbb !important;
   }
   .job-console .bg-8 {
-    background: gray !important;
+    background: #7e7d7d !important;
   }
   .job-console .ansi-44, .job-console .bg-9 {
     background: #14f !important;
@@ -1209,7 +1209,7 @@ that covers various associated domains and refines styling to all elements and a
     background: #0ff !important;
   }
   .job-console .ansi-41, .job-console .bg-12 {
-    background: red !important;
+    background: #f00 !important;
   }
   .job-console .ansi-45, .job-console .bg-13 {
     background: #f0f !important;
