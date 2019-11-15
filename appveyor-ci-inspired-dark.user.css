@@ -1122,7 +1122,7 @@ that covers various associated domains and refines styling to all elements and a
   }
   /* fix black color too dark over dark style */
   .job-console .ansi-30, .job-console .fg-0 {
-    color: #aaa !important;
+    color: #ddd !important;
   }
   /* fix navy color too dark on dark */
   .job-console .fg-1 {
@@ -1215,7 +1215,7 @@ that covers various associated domains and refines styling to all elements and a
     background: #f0f !important;
   }
   .job-console .ansi-43, .job-console .bg-14 {
-    background: #ff0 !important;
+    background: #c68700 !important;
   }
   .job-console .ansi-107, .job-console .ansi-47, .job-console .bg-15 {
     background: #fff !important;
