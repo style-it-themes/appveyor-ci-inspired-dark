@@ -31,7 +31,7 @@
     "minor": "npx ver -p minor *.user.css",
     "major": "npx ver -p major *.user.css",
     "perfectionist": "npx perfectionist appveyor-ci-inspired-dark.user.css appveyor-ci-inspired-dark.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "npx stylelint --quiet --color-- appveyor-ci-inspired-dark.user.css",
+    "stylelint": "npx stylelint --quiet --color -- appveyor-ci-inspired-dark.user.css",
     "lintfix": "npx stylelint --quiet --color --fix -- appveyor-ci-inspired-dark.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"
