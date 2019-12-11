@@ -1796,21 +1796,12 @@ that covers various associated domains and refines styling to all elements and a
       border-color: #f7f5f4;
     }
   }
-  .project-build-pr a {
+  .project-build-pr a, .project-build-details a, .project-build-message-extended {
     color: #888;
   }
   .project-build-message a, .project-build-version a,
   .project-deployment-environment a, .project-deployment-message a {
     color: #ccc;
-  }
-  .project-build-message-extended {
-    color: #888;
-  }
-  .project-build-details {
-    color: #aaa;
-  }
-  .project-build-details a {
-    color: #888;
   }
   .project-build-state {
     color: #aaa;
