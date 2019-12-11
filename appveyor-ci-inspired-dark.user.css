@@ -123,8 +123,9 @@ that covers various associated domains and refines styling to all elements and a
   .top-bar-section .dropdown li.title h5 a {
     color: #fff;
   }
-  .top-bar-section .dropdown label {
-    color: #777;
+  .top-bar-section .dropdown label, .footer a, .footer a:active, .footer a:hover,
+  .footer a:link, .footer a:visited {
+    color: #aaa;
   }
   .top-bar-section .dropdown li label,
   .top-bar-section .dropdown li.parent-link a,
@@ -740,7 +741,7 @@ that covers various associated domains and refines styling to all elements and a
     color: #333;
   }
   .subheader {
-    color: #6f6f6f;
+    color: #aaa;
   }
   .left-off-canvas-menu, .right-off-canvas-menu {
     background: #333;
@@ -1810,8 +1811,8 @@ that covers various associated domains and refines styling to all elements and a
     color: #888;
     border-top: 1px solid #555;
   }
-  .list-no-records, .list-welcome {
-    color: #666;
+  .list-no-records, .list-welcome, .project-build-details {
+    color: #aaa;
   }
   .responsive-table.error-messages .row.body:hover {
     background-color: transparent;
