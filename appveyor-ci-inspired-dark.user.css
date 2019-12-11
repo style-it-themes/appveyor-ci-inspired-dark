@@ -1507,6 +1507,8 @@ that covers various associated domains and refines styling to all elements and a
   }
   .spinner > div {
     background-color: #06b9e6;
+    height: 16px;
+    width: 16px;
   }
   @-webkit-keyframes bouncedelay {
     0%, 80%, to {
