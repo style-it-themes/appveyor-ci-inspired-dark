@@ -753,8 +753,8 @@ that covers various associated domains and refines styling to all elements and a
     background: #333;
   }
   nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4, nav.tab-bar h5,
-  nav.tab-bar h6 {
-    color: #eee;
+  nav.tab-bar h6, .customers-container h2, .benefits-container h2, .feature h3 {
+    color: #ccc;
   }
   a.menu-icon span {
     -webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
@@ -918,6 +918,13 @@ that covers various associated domains and refines styling to all elements and a
   img {
     filter: invert(1) hue-rotate(180deg) contrast(100%) brightness(140%);
     mix-blend-mode: exclusion;
+  }
+  img[src*="catlight-build-started-notification"] {
+    filter: none;
+  }
+  img[src*="appveyor-home-screenshot"] {
+    filter: invert(1) hue-rotate(180deg) contrast(80%);
+    mix-blend-mode: normal;
   }
   /* Pricing page */
   .pricing-banner {
